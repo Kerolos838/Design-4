@@ -1,0 +1,391 @@
+                          /* Responsive Mobile */
+@media (min-width: 250px) {
+  /* Container */
+  /* No Container At Mobile */
+/* ************************************************* */
+  /* Header (NavBar) */
+  .header .logo {
+    width: fit-content;
+    height: 40px;
+    font-size: 25px;
+  }
+  .header .main-nav > li > a {
+    font-size: 14px;
+    padding: 0 10px 5px;
+    height: 45px;
+  }
+  .header .main-nav > li > a:hover {
+    font-size: 20px;
+  }
+          /* REVIEW NAVBAR ON MOBILE  */
+          #fixed {
+            left: 4vh;
+          }
+/* ************************************************ */
+  /* Landing */
+  .landing .container {
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: 8vh;
+  }
+  .landing .text {
+    /* margin: 45px auto 20px; */
+    text-align: center;
+    flex: none;
+    width: 50vh;
+  }
+  .landing .text h1 {
+    font-size: 3vh;
+    letter-spacing: 0.1vh;
+  }
+  .landing .text p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .landing .image img {
+    width: 42vh;
+    max-width: 450px;
+  }
+/* ************************************************* */
+
+/* Setion 2 */
+  .sectionTwo .pre-btn {
+    top: 78%;
+    left: 25px;
+}  
+  .sectionTwo .nxt-btn {
+    top: 78%;
+    right: 25px;
+}
+          /* REVIEW SECTION 2 ON MOBILE  */
+          .sectionTwo .cr1{
+            left: -22px;
+            top: 120px;
+            width: 260px;
+            height: 260px;
+          }
+}
+
+                          /* Responsive Tablet */
+@media (min-width: 768px) {
+  /* Container */
+  .container {
+    width: 750px;
+  }
+/* ************************************************* */
+
+  /* Header (NavBar) */
+  .header .logo {
+    width: 100%;
+    height: 50px;
+    font-size: 5vh;
+  }
+  .header .main-nav {
+    margin: auto;
+    display: flex !important;
+  }
+  .header .main-nav > li > a {
+    padding: 0 30px;
+  }
+            /* REVIEW NAVBAR ON TABLET  */
+            #fixed {
+              left: 8vh;
+            }
+/* ************************************************* */
+
+  /* Landing */
+  .landing .container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20vh;
+  }
+  .landing .text {
+  margin: 45px auto 20px;
+  text-align: center;
+  flex: none;
+  width: 63vh;
+}
+  .landing .text h1 {
+    font-size: 20px;
+    letter-spacing: inherit;
+  }
+  .landing ul li {
+    padding: 10px;
+    font-size: 17px;
+    position: relative;
+    bottom: -2px;
+    width: 37vh;
+}
+  .landing .text p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .landing .image img {
+    width: 300px;
+    max-width: 400px;
+  }
+/* ************************************************* */
+
+/* Section 2 */
+.sectionTwo .container .content {
+  width: 80%;
+  left: 80px;
+}
+.sectionTwo .pre-btn {
+  top: 50%;
+  left: 25px;
+}  
+.sectionTwo .nxt-btn {
+  top: 50%;
+  right: 25px;
+}
+          /* REVIEW SECTION .2 ON TABLET  */
+          .sectionTwo .cr1{
+            width: 300px;
+            height: 300px;
+            top: 74px;
+            left: 174px;
+          }
+/* *************************************************** */
+
+/* Section 4*/
+.sectionFour .container form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+.sectionFour .container form .main-input {
+  width: calc(50% - 10px);
+  padding: 20px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  margin-bottom: 25px;
+  border-radius: 6px;
+}
+.sectionFour .container form  .main-input-m {
+  width: calc(50% - 10px);
+  position: absolute;
+  height: 90%;
+  padding: 20px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  right: 0;
+}
+.sectionFour .container form .submit {
+  position: absolute;
+  bottom: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 40px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color:  rgb(255, 217, 0);
+  color:   #9010e2;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 1s;
+}
+}
+
+                              /* Responsive Labtop */
+@media (min-width: 992px) {
+  /* Container */
+  .container {
+    width: 970px;
+  }
+/* ************************************************* */
+
+    /* Header (NavBar) */
+  .header .main-nav {
+    margin: 0 5vh;
+  }
+  #fixed {
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 10vh;
+    left: 10vh;
+  }
+  .header .main-nav > li > a {
+    padding: 0 4vh;
+    width: 20vh;
+  }
+  .header .main-nav > li > a:hover {
+    font-size: 3vh;
+  }
+/* ************************************************* */
+
+  /* Landing */
+  .landing .container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20vh;
+    height: 100vh;
+  }
+  .landing .text {
+  margin: 45px auto 20px;
+  text-align: center;
+  flex: none;
+  width: 80vh;
+}
+  .landing .text h1 {
+    font-size: 40px;
+    letter-spacing: inherit;
+  }
+  .landing ul li {
+    padding: 10px;
+    font-size: 30px;
+    position: relative;
+    bottom: -2px;
+    width: 37vh;
+  }
+  .landing .text p {
+    font-size: 3vh;
+    margin: 20px 2px;
+  }
+  .landing .image img {
+    width: 61vh;
+    max-width: 70vh;
+  }
+/* ************************************************* */
+/* Section 2 */
+.sectionTwo .container .content {
+  width: 90%;
+  left: 35px;
+}
+.sectionTwo .pre-btn {
+  top: 50%;
+  left: 25px;
+}  
+.sectionTwo .nxt-btn {
+  top: 50%;
+  right: 25px;
+}
+}
+
+                          /* Responsive Large */
+@media (min-width: 1200px) {
+  /* Container */
+  .container {
+    width: 1170px;
+  }
+/* ************************************************* */
+
+  /* Header (NavBar) */
+  #fixed {
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 10vh;
+    left: 16vh;
+  }
+  .header .main-nav > li > a {
+    padding: 0 4vh;
+    width: 20vh;
+  }
+  .header .main-nav > li > a:hover {
+    font-size: 3vh;
+  }
+/* ************************************************* */
+
+  /* Landing */
+  .landing .text p {
+    font-size: 3vh;
+    margin: 20px auto;
+  }
+/* Setion 2 */
+
+  }
+
+
+  
+  
+  /* Max Width For Change Only Screen */
+  /* JS Card Section 1  */
+  @media (max-width: 991px) {
+    .sectionOne .perant_div {
+      flex-direction: column-reverse;
+    }
+    .sectionOne .perant_div img {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+      /* REVIEW NAVBAR ON MOBILE  */
+    /* NavBar Block On Mobile */ 
+    .header .main-nav {
+      display: none;
+    }
+    #dash {
+      display: inline-block;
+      width: fit-content;
+      text-align: center;
+      font-size: 4vh;
+      color: var(--main-color);
+    }
+    #fixed {
+      display: block;
+    }
+    .header .for-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    /* Section 4 */
+    .sectionFour .container form {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: flex-start;
+      position: relative;
+    }
+    .sectionFour .container form .main-input {
+      width: 80%;
+      padding: 20px;
+      font-weight: 700;
+      border: none;
+      outline: none;
+      margin: 0 auto 25px;
+      border-radius: 6px;
+    }
+    .sectionFour .container form  .main-input-m {
+      width: 80%;
+      height: 200px;
+      margin: 0 auto 25px;
+      padding: 20px;
+      font-weight: 700;
+      border: none;
+      outline: none;
+      border-radius: 6px;
+    }
+    .sectionFour .container form .submit {
+      width: 60%;
+      position: relative;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 20px 10px;
+      font-weight: 700;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: var(--main-color-alt);
+      border: none;
+      outline: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+
+
+
+
